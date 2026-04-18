@@ -81,9 +81,9 @@ export default function Header() {
             </button>
 
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2">
+            <Link href="/" className="flex items-center gap-1.5">
               <span className="font-heading text-2xl font-semibold tracking-tight">
-                Store
+                Paw<span className="text-accent">Flow</span>
               </span>
             </Link>
 

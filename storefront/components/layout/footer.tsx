@@ -48,11 +48,12 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block">
               <span className="font-heading text-2xl font-semibold">
-                Store
+                Paw<span className="text-accent">Flow</span>
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Curated products crafted with care. Quality you can feel, design you can see.
+              Smart hydration gear for adventurous pups and the humans who love them.
+              Built for the trail, engineered for every walk.
             </p>
           </div>
 
@@ -102,7 +103,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Store. All rights reserved.
+            &copy; {new Date().getFullYear()} PawFlow. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <button
